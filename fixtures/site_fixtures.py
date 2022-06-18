@@ -1,5 +1,6 @@
 from selenium.webdriver import Chrome
 import pytest as pytest
+from webdriver_manager import driver
 from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium import webdriver
